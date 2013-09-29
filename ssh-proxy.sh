@@ -1,6 +1,6 @@
 #!/bin/sh
 
-password=$(/store/user_scripts/fetch_parameter.sh /etc/mypass ssh_password)
+password=$(/opt/script/fetch_parameter.sh /etc/mypass ssh_password)
 echo "password:$password"
 
 PID=$(pidof ssh)
