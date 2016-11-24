@@ -1,1 +1,1 @@
-常用脚本
+common shell
